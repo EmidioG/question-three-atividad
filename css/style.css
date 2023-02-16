@@ -16,5 +16,11 @@ a {
 }
 
 li:hover a {
-  color: aqua;
+  transition: 0.2s;
+  color: azure;
+}
+
+li:hover {
+  background-color: black;
+  transition: 0.1s;
 }

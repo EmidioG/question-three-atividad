@@ -1,17 +1,21 @@
+body {
+  font-family: Montserrat;
+}
 ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 10px;
 }
 li {
-  background-color: goldenrod;
+  background-color: coral;
   padding: 1rem 2rem;
-  outline: 2px solid black;
+  outline: 2px solid rgb(90, 60, 60);
   border-radius: 4px;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(90, 60, 60);
   font-size: 2rem;
 }
 
@@ -22,5 +26,5 @@ li:hover a {
 
 li:hover {
   background-color: black;
-  transition: 0.1s;
+  transition: 0.2s;
 }
